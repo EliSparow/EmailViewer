@@ -8,8 +8,8 @@ https://email-viewer23.herokuapp.com
 ### Une fois pull
 ```
 bundle install
-db:create
-db:migrate
+rails db:create
+rails db:migrate
 
 ```
 
