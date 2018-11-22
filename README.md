@@ -10,6 +10,7 @@ https://email-viewer23.herokuapp.com
 bundle install
 rails db:create
 rails db:migrate
+rails db:seed
 
 ```
 
