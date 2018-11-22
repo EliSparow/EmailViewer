@@ -8,5 +8,5 @@
 require 'faker'
 
 10.times do
-  email = Email.create(object: Faker::Book.title, body: Faker::Lorem.paragraph, read: false)
+  email = Email.create(object: Faker::Beer.name, body: Faker::Lorem.paragraph_by_chars, read: false)
 end
